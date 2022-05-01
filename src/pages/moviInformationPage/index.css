@@ -1,0 +1,33 @@
+.div1-MovieInformation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.p-MovieInformation {
+  color: white;
+  width: 231px;
+  height: 45px;
+  font-size: 20px;
+}
+
+.div-MovieInformation {
+  background-color: #000000;
+  height: 800px;
+}
+
+.img-MovieInformation {
+  width: 350px;
+  height: 300px;
+}
+.div2-MovieInformation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.p1-MovieInformation {
+  color: white;
+  width: 600px;
+  height: 236px;
+}

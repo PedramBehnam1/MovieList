@@ -1,0 +1,13 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 332px;
+  margin: 52px 0;
+}
+
+.img-updatePage {
+  width: 200px;
+  height: 200px;
+}

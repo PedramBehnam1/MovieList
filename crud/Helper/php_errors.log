@@ -1,0 +1,84 @@
+[06-Feb-2022 16:01:36 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'oci8_12c' (tried: ext\oci8_12c (The specified module could not be found), ext\php_oci8_12c.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:01:36 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'oci8_19' (tried: ext\oci8_19 (The specified module could not be found), ext\php_oci8_19.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:01:36 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_firebird' (tried: ext\pdo_firebird (The specified module could not be found), ext\php_pdo_firebird.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:01:36 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_oci' (tried: ext\pdo_oci (The specified module could not be found), ext\php_pdo_oci.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:01:36 UTC] Xdebug: [Config] The setting 'xdebug.remote_autostart' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_autostart (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[06-Feb-2022 16:01:36 UTC] Xdebug: [Config] The setting 'xdebug.remote_enable' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_enable (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[06-Feb-2022 16:01:36 UTC] PHP Warning:  Unknown: open_basedir restriction in effect. File(c:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10/php-cs-fixer.phar) is not within the allowed path(s): (C:\inetpub\wwwroot) in Unknown on line 0
+[06-Feb-2022 16:01:36 UTC] PHP Fatal error:  Uncaught ErrorException: Phar::mapPhar(): open_basedir restriction in effect. File(C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar) is not within the allowed path(s): (C:\inetpub\wwwroot) in C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar:78
+Stack trace:
+#0 [internal function]: {closure}(2, 'Phar::mapPhar()...', 'C:\\Users\\User\\....', 78)
+#1 C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar(78): Phar::mapPhar('php-cs-fixer.ph...')
+#2 C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar(104): {closure}()
+#3 {main}
+  thrown in C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar on line 78
+[06-Feb-2022 16:02:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'oci8_12c' (tried: ext\oci8_12c (The specified module could not be found), ext\php_oci8_12c.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:02:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'oci8_19' (tried: ext\oci8_19 (The specified module could not be found), ext\php_oci8_19.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:02:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_firebird' (tried: ext\pdo_firebird (The specified module could not be found), ext\php_pdo_firebird.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:02:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_oci' (tried: ext\pdo_oci (The specified module could not be found), ext\php_pdo_oci.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:02:20 UTC] Xdebug: [Config] The setting 'xdebug.remote_autostart' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_autostart (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[06-Feb-2022 16:02:20 UTC] Xdebug: [Config] The setting 'xdebug.remote_enable' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_enable (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[06-Feb-2022 16:02:20 UTC] PHP Warning:  Unknown: open_basedir restriction in effect. File(c:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10/php-cs-fixer.phar) is not within the allowed path(s): (C:\inetpub\wwwroot) in Unknown on line 0
+[06-Feb-2022 16:02:20 UTC] PHP Fatal error:  Uncaught ErrorException: Phar::mapPhar(): open_basedir restriction in effect. File(C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar) is not within the allowed path(s): (C:\inetpub\wwwroot) in C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar:78
+Stack trace:
+#0 [internal function]: {closure}(2, 'Phar::mapPhar()...', 'C:\\Users\\User\\....', 78)
+#1 C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar(78): Phar::mapPhar('php-cs-fixer.ph...')
+#2 C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar(104): {closure}()
+#3 {main}
+  thrown in C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar on line 78
+[06-Feb-2022 16:27:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'oci8_12c' (tried: ext\oci8_12c (The specified module could not be found), ext\php_oci8_12c.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:27:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'oci8_19' (tried: ext\oci8_19 (The specified module could not be found), ext\php_oci8_19.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:27:40 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_firebird' (tried: ext\pdo_firebird (The specified module could not be found), ext\php_pdo_firebird.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:27:40 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_oci' (tried: ext\pdo_oci (The specified module could not be found), ext\php_pdo_oci.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:27:40 UTC] Xdebug: [Config] The setting 'xdebug.remote_autostart' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_autostart (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[06-Feb-2022 16:27:40 UTC] Xdebug: [Config] The setting 'xdebug.remote_enable' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_enable (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[06-Feb-2022 16:27:40 UTC] PHP Warning:  Unknown: open_basedir restriction in effect. File(c:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10/php-cs-fixer.phar) is not within the allowed path(s): (C:\inetpub\wwwroot) in Unknown on line 0
+[06-Feb-2022 16:27:40 UTC] PHP Fatal error:  Uncaught ErrorException: Phar::mapPhar(): open_basedir restriction in effect. File(C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar) is not within the allowed path(s): (C:\inetpub\wwwroot) in C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar:78
+Stack trace:
+#0 [internal function]: {closure}(2, 'Phar::mapPhar()...', 'C:\\Users\\User\\....', 78)
+#1 C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar(78): Phar::mapPhar('php-cs-fixer.ph...')
+#2 C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar(104): {closure}()
+#3 {main}
+  thrown in C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar on line 78
+[06-Feb-2022 16:27:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'oci8_12c' (tried: ext\oci8_12c (The specified module could not be found), ext\php_oci8_12c.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:27:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'oci8_19' (tried: ext\oci8_19 (The specified module could not be found), ext\php_oci8_19.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:27:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_firebird' (tried: ext\pdo_firebird (The specified module could not be found), ext\php_pdo_firebird.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:27:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_oci' (tried: ext\pdo_oci (The specified module could not be found), ext\php_pdo_oci.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:27:52 UTC] Xdebug: [Config] The setting 'xdebug.remote_autostart' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_autostart (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[06-Feb-2022 16:27:52 UTC] Xdebug: [Config] The setting 'xdebug.remote_enable' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_enable (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[06-Feb-2022 16:27:52 UTC] PHP Warning:  Unknown: open_basedir restriction in effect. File(c:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10/php-cs-fixer.phar) is not within the allowed path(s): (C:\inetpub\wwwroot) in Unknown on line 0
+[06-Feb-2022 16:27:52 UTC] PHP Fatal error:  Uncaught ErrorException: Phar::mapPhar(): open_basedir restriction in effect. File(C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar) is not within the allowed path(s): (C:\inetpub\wwwroot) in C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar:78
+Stack trace:
+#0 [internal function]: {closure}(2, 'Phar::mapPhar()...', 'C:\\Users\\User\\....', 78)
+#1 C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar(78): Phar::mapPhar('php-cs-fixer.ph...')
+#2 C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar(104): {closure}()
+#3 {main}
+  thrown in C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar on line 78
+[06-Feb-2022 16:33:14 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'oci8_12c' (tried: ext\oci8_12c (The specified module could not be found), ext\php_oci8_12c.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:33:14 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'oci8_19' (tried: ext\oci8_19 (The specified module could not be found), ext\php_oci8_19.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:33:14 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_firebird' (tried: ext\pdo_firebird (The specified module could not be found), ext\php_pdo_firebird.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:33:14 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_oci' (tried: ext\pdo_oci (The specified module could not be found), ext\php_pdo_oci.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:33:14 UTC] Xdebug: [Config] The setting 'xdebug.remote_autostart' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_autostart (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[06-Feb-2022 16:33:14 UTC] Xdebug: [Config] The setting 'xdebug.remote_enable' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_enable (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[06-Feb-2022 16:33:14 UTC] PHP Warning:  Unknown: open_basedir restriction in effect. File(c:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10/php-cs-fixer.phar) is not within the allowed path(s): (C:\inetpub\wwwroot) in Unknown on line 0
+[06-Feb-2022 16:33:14 UTC] PHP Fatal error:  Uncaught ErrorException: Phar::mapPhar(): open_basedir restriction in effect. File(C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar) is not within the allowed path(s): (C:\inetpub\wwwroot) in C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar:78
+Stack trace:
+#0 [internal function]: {closure}(2, 'Phar::mapPhar()...', 'C:\\Users\\User\\....', 78)
+#1 C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar(78): Phar::mapPhar('php-cs-fixer.ph...')
+#2 C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar(104): {closure}()
+#3 {main}
+  thrown in C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar on line 78
+[06-Feb-2022 16:42:31 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'oci8_12c' (tried: ext\oci8_12c (The specified module could not be found), ext\php_oci8_12c.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:42:31 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'oci8_19' (tried: ext\oci8_19 (The specified module could not be found), ext\php_oci8_19.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:42:31 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_firebird' (tried: ext\pdo_firebird (The specified module could not be found), ext\php_pdo_firebird.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:42:31 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_oci' (tried: ext\pdo_oci (The specified module could not be found), ext\php_pdo_oci.dll (The specified module could not be found)) in Unknown on line 0
+[06-Feb-2022 16:42:31 UTC] Xdebug: [Config] The setting 'xdebug.remote_autostart' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_autostart (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[06-Feb-2022 16:42:31 UTC] Xdebug: [Config] The setting 'xdebug.remote_enable' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_enable (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[06-Feb-2022 16:42:31 UTC] PHP Warning:  Unknown: open_basedir restriction in effect. File(c:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10/php-cs-fixer.phar) is not within the allowed path(s): (C:\inetpub\wwwroot) in Unknown on line 0
+[06-Feb-2022 16:42:31 UTC] PHP Fatal error:  Uncaught ErrorException: Phar::mapPhar(): open_basedir restriction in effect. File(C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar) is not within the allowed path(s): (C:\inetpub\wwwroot) in C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar:78
+Stack trace:
+#0 [internal function]: {closure}(2, 'Phar::mapPhar()...', 'C:\\Users\\User\\....', 78)
+#1 C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar(78): Phar::mapPhar('php-cs-fixer.ph...')
+#2 C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar(104): {closure}()
+#3 {main}
+  thrown in C:\Users\User\.vscode\extensions\junstyle.php-cs-fixer-0.2.10\php-cs-fixer.phar on line 78
