@@ -1,5 +1,5 @@
 img {
-  width: 200px;
+  width: auto;
   height: 200px;
 }
 
@@ -15,7 +15,7 @@ img {
 
 h1 {
   font-size: 20px;
-  height: 61px;
+  height: 24px;
 }
 
 .div2-movie {

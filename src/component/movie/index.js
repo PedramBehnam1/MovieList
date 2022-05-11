@@ -3,6 +3,8 @@ import "./index.css";
 import {Link} from "react-router-dom";
 import paths from "../../Router/path";
 import axios from "axios";
+import { Card , Image } from "react-bootstrap";
+
 
 
 const Movie = (props) =>{ 
@@ -27,22 +29,35 @@ const Movie = (props) =>{
   )
  }
 
+ 
  return(
-  <div>
-   <div className="div1-movie">
-   <img src={props.movie.addressFile} alt={props.movie.alt} />
-   <div className="div2-movie">
-    <h1>title: {props.movie.name}</h1>
-    <p>Year: {props.movie.yearOfMaking}</p>
-   </div>
-   <div className="div3-movie">
-   <Link to={`/information/${props.movie.id}`}><button>show more datail</button></Link>
-    <Link to={`/update/${props.movie.id}`}><button className="edit">Edit </button></Link>
     
-    <Link to="#" onClick={handleClick}><button className="delete">Delete </button></Link> 
-   </div>
-   </div>
-  </div>
+        <Card className=" m-1 col-lg-3 shadow text-center "  style={{ height:"63%"}}>
+            
+            <Image src={props.movie.addressFile} alt={props.movie.alt} />
+            <Card.Body>
+                <Card.Title >
+                    title:
+                    <Card.Subtitle>
+                        <p>{props.movie.name}</p>
+                    </Card.Subtitle>
+                    Year:
+                    <Card.Subtitle>
+                        <p>{props.movie.yearOfMaking}</p>
+                    </Card.Subtitle>
+                </Card.Title>
+
+                <div className="d-flex flex-row justify-content-around">
+                    <Link to={`/information/${props.movie.id}`}><button className="bg-info rounded-bottom rounded-top">more...</button></Link>
+                    <Link to={`/update/${props.movie.id}`}><button className="bg-warning rounded-bottom rounded-top mx-2">Edit </button></Link>
+                    <Link to="#" onClick={handleClick}><button className="bg-danger rounded-bottom rounded-top">Delete </button></Link> 
+                </div>
+            
+            </Card.Body>
+        
+        </Card>
+   
+  
  )
 }
 

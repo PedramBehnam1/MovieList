@@ -1,6 +1,6 @@
 .div-movieList {
   overflow: scroll;
-  width: 59%;
-  margin: 0 20%;
+  width: 100%;
+  margin: 0 -3%;
   height: 600px;
 }

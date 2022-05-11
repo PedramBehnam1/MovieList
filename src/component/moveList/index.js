@@ -6,9 +6,9 @@ import { connect } from "react-redux";
 import { type } from "@testing-library/user-event/dist/type";
 import {useStateToProps , useDispatchToProps} from "../../redux/action/actions";
 import "./index.css"
-
-
-
+import {Link} from "react-router-dom";
+import {Image  } from 'react-bootstrap';
+import AddButton from "../../icons/add-button-4468194-4012612.png"
 
 class MovieList extends React.Component { 
   constructor(props){
@@ -34,10 +34,17 @@ class MovieList extends React.Component {
     console.log(10);
       try {
        axios.get(`${this.state.baseUrl}/index.php`).then(res =>{
-          this.setState({movieList : res.data});
+  
+        console.log(res.data);
+        if (res.data != "rows: 0") { 
+          this.setState({movieList : res.data}); 
           console.log(res.data);
+        }
+        
+          
         })
       } catch (error) {
+        
         console.log(error);
       }
   }
@@ -100,11 +107,16 @@ getMovieByYear(){
    }else{
       return(
         <>
-        <div className="div-movieList">
+        <div className="div-movieList row container-fluid d-flex justify-content-around">
           {this.state.state ? this.state.movieList.map((movie , index)=>(
-            <Movie movie= {movie} index={index}  key={movie.id}/>
+            
+              <Movie movie= {movie} index={index}  key={movie.id}/>
+            
+            
           )) 
           : <p>sss</p>}
+
+          <Link to='/create' className=" mt-auto text-white"><Image src={AddButton} style={{width:"3%", height:"5%"} }></Image></Link>
         </div>
         </>
       )
