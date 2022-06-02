@@ -11,3 +11,41 @@ form {
   width: 200px;
   height: 200px;
 }
+
+
+@media  screen and (max-width: 426px){
+	
+
+ .HomeButton{
+    width: 27% !important;
+  }
+  .lastDiv{
+    width: 125% !important;
+    margin-left: 5%;
+  }
+}
+
+@media  screen and (max-width: 278px){
+  .card_div{
+    height: 803px;
+  }
+
+  .container{
+    width: 450px !important;
+  }
+  section{
+    width: 450px !important;
+  }
+
+  .submitButton{
+    width: 19% !important;
+  }
+
+  .HomeButton{
+     width: 19% !important;
+   }
+   .lastDiv{
+     width: 125% !important;
+     margin-left: 5%;
+   }
+ }

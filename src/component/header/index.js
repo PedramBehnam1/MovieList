@@ -10,7 +10,7 @@ import MediaQuery from 'react-responsive';
 
 // import { BrowserView, MobileOnlyView,  TabletView,isBrowser, isMobile } from 'react-device-detect';
 const Header = ()=>{
-  const {visibility , nameOfMovie,yearOfMakingMovie} = useStateToProps((state) =>({
+  const {visibility , nameOfMovie,yearOfMakingMovie,status} = useStateToProps((state) =>({
     visibility: state.app.visibility,
     nameOfMovie: state.app.nameOfMovie,
     yearOfMakingMovie: state.app.yearOfMakingMovie,
@@ -38,6 +38,7 @@ const Header = ()=>{
       console.log(visibility);
       console.log(nameOfMovie);
       console.log(yearOfMakingMovie);
+      // console.log(status);
     } catch (error) {
       console.log(error);
     }
@@ -134,6 +135,14 @@ const Header = ()=>{
       <Form className="h-50 ">
         <Form.Group className="d-flex flex-row w-50 justify-content-center container">
           <Form.Control type="text" placeholder="name or year of making movie" className="me-2" style={{width:"61%"}} onChange={handleChange}></Form.Control>
+          <Button onClick={handleClick} title="search" data-bs-toggle="tooltip" className="btn btn-dark rounded-circle" > <Image src={SearchIcon} className="h-75 " style={{width:"35px"}}  alt="search icon"></Image></Button>
+        </Form.Group>
+      </Form>
+    </MediaQuery>
+    <MediaQuery minWidth={770} maxWidth={800}>
+      <Form className="h-50 ">
+        <Form.Group className="d-flex flex-row  justify-content-center container " style={{width:"90%"}}>
+          <Form.Control type="text" placeholder="name or year of making movie" className="me-2" style={{width:"50%"}} onChange={handleChange}></Form.Control>
           <Button onClick={handleClick} title="search" data-bs-toggle="tooltip" className="btn btn-dark rounded-circle" > <Image src={SearchIcon} className="h-75 " style={{width:"35px"}}  alt="search icon"></Image></Button>
         </Form.Group>
       </Form>

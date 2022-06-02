@@ -22,6 +22,7 @@ class MovieList extends React.Component {
     }
 
     this.bool = false;
+    this.bool1 = false;
   
     this.getMovieByName= this.getMovieByName.bind(this);
   }
@@ -39,6 +40,11 @@ class MovieList extends React.Component {
         if (res.data != "rows: 0") { 
           this.setState({movieList : res.data}); 
           console.log(res.data);
+        }else{
+          this.setState({state:false},function () {
+            console.log(this.state.state) ; 
+          });
+          
         }
         
           
@@ -74,7 +80,14 @@ getMovieByYear(){
   }
 }
 
+ 
+
   render(){ 
+
+   
+
+
+
     if(this.props.visibility === false){
       var i = {};
       if (this.props.name !== "") {
@@ -114,9 +127,9 @@ getMovieByYear(){
             
             
           )) 
-          : <p>sss</p>}
+          : <p className="text-white" style={{marginLeft:"9%"}}>add some movie...</p>}
 
-          <Link to='/create' className=" mt-auto text-white"><Image src={AddButton} style={{width:"3%", height:"5%"} }></Image></Link>
+          <Link to='/create' className="mt-auto mb-1 text-white image-link"><Image   src={AddButton} style={{width:"5%", height:"5%",marginLeft:"9%"} }></Image></Link>
         </div>
         </>
       )

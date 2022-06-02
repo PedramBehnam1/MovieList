@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+/* 
+@media  screen and (max-width: 277px){
+
+  .App{
+    width: 300px !important;
+  }
+
+} */
+
+
+
+@media (max-width: 278px) {
+
+  .App{
+    width: 505px!important;
+  }
+}

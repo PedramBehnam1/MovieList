@@ -30,3 +30,92 @@ form.addPage-Form {
   justify-content: space-between;
   margin: 0 30%;
 }
+
+.lastDiv{
+  width: 67% ;
+}
+
+
+.HomeButton{
+  width: 35% ;
+}
+
+
+@media  screen and (max-width: 395px){
+	section div.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	}
+  section{
+    height: 150%;
+  }
+
+ .HomeButton{
+    width: 27% !important;
+  }
+  .lastDiv{
+    width: 125% !important;
+    margin-left: 5%;
+  }
+}
+
+@media  screen and (max-width: 268px){
+    section div.row{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    section{
+      height: 150%;
+    }
+
+    
+    .img{
+      height: 79px !important;
+    }
+    .h3{
+      width: 87% !important;
+      margin-bottom: 3px !important;
+    }
+    
+    .div3{
+      width: 120% !important;
+    }
+
+    form{
+      margin-top: 5px !important;
+    }
+
+    .lastDiv{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .submitButton{
+      width: 37% !important;
+      margin-right: 0% !important;
+    }
+
+    .HomeButton{
+      width: 37% !important;
+    }
+
+    .divName{
+      width: 95% !important;
+    }
+
+    .inputName{
+      width: 100% !important;
+    }
+
+    .divYear{
+      width: 95% !important;
+      padding: 0;
+    }
+
+    .inputYear{
+      width: 100% !important;
+    }
+  } 

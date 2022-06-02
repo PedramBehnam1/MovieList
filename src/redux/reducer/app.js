@@ -3,7 +3,8 @@ import { SEARCH_TEXT } from "../action/action-types"
 const initialState = {
   visibility : true,
   nameOfMovie: "",
-  yearOfMakingMovie: ""
+  yearOfMakingMovie: "",
+  status: true,
 }
 
 
@@ -15,6 +16,7 @@ export default ( state = initialState , action) =>{
     visibility: action.paylod.visibility,
     nameOfMovie: action.paylod.nameOfMovie,
     yearOfMakingMovie: action.paylod.yearOfMakingMovie,
+    status: action.paylod.status,
    }
   
   }

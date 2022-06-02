@@ -6,28 +6,65 @@
 
 .p-MovieInformation {
   color: white;
-  width: 231px;
   height: 45px;
   font-size: 20px;
+  margin-bottom: 3px;
 }
 
 .div-MovieInformation {
-  background-color: #000000;
   height: 800px;
 }
 
 .img-MovieInformation {
-  width: 350px;
-  height: 300px;
+  /* width: 350px;
+  height: 300px; */
+  image-rendering: pixelated;
+}
+
+.img-MovieInformation{
+  height: 30% !important;
 }
 .div2-MovieInformation {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  text-align: center;
+  height: 21%;
+  margin-bottom: 1px;
 }
 
 .p1-MovieInformation {
   color: white;
-  width: 600px;
-  height: 236px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+
+@media  screen and (max-width: 548px){
+  .img-MovieInformation{
+    height: 12% !important;
+  }
+
+  .div1-MovieInformation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media  screen and (min-width: 2000px){
+  .img-MovieInformation{
+    height: 40% !important;
+  }
+
+  .div1-MovieInformation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .p1-MovieInformation {
+    font-size: 20px;
+  }
 }

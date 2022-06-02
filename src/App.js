@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <Provider store={store}>
-      <div className="App  bg-dark">
+      <div className="App  bg-dark ">
         <Router />
       </div>
     </Provider>
